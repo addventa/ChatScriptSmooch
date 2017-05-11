@@ -25,6 +25,8 @@
 
         $ heroku config:set SERVICE_URL=https://foo-bar-4242.herokuapp.com -a foo-bar-4242
 
+1. In Smooch, your application should be detected. You have to had another integration : WebHooks. There is 2 important types of webhooks we use in this example that you have to add, appUser:messages and Postbacks with the URL of your application.
+
 1. You should be all set. Open your Heroku app and start chatting with your new bot! Use the heroku URL and you should have something like this:
 
 ![heroku](/img_readme/heroku.gif)
